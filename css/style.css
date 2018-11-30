@@ -1,3 +1,7 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
 	header{
 		background-image: url('../images/bg.jpg');
 		background-size: cover;
@@ -14,14 +18,15 @@
 		width: 30%;
 	}
 	.nav_bar{
-		padding: 40px 0 30px 0;
+		padding: 45px 0 30px 0;
 		display: flex;
 		position: relative;
 	}
 	.nav_list{
+		position: relative;
 		margin: 0 auto;
-		padding-top: 30px;
-		width: 100%;
+		padding-top: 20px;
+		width: 70%;
 		font-family: "SourceSansPro-Light";
 		letter-spacing: 1px;
 		text-align: right;
@@ -29,7 +34,15 @@
 		font-size: 20px;
 	}
 	.nav_list a{
-		margin-right: 10%;
+		text-decoration: none;
+		margin-right: 8%;
+		color: #fff;
+	}
+	.paragraph_section1{
+		margin-right: 4%;
+		padding-bottom: 30px;
+		text-decoration: none;
+		color: #fff;
 	}
 	.heading{
 		color: #fff;
@@ -67,13 +80,16 @@
 		src:url("../fonts/SourceSansPro-It.otf");
 	}
 	.header_box{
-		width: 20%;
-		background-color: #8b7e2e;	
-		color: #fff;
+	/*	width: 20%;
+		background-color: #8b7e2e;	*/
+		
 	}
 	.box_text{
+		color: #fff;
 		font-family: "SourceSansPro-Light";
-		padding: 20px 0 20px 0;
+		padding: 20px 20px 20px 20px;
+		background-color: #8b7e2e;
+		border: none;
 		text-align: center;
 		font-size: 25px;
 		letter-spacing: 1px;
@@ -104,25 +120,36 @@
 	}
 	.description{
 		box-sizing: border-box;
-		padding-top: 10px;
+		padding-top: 40px;
+    padding-bottom: 30px;
 		letter-spacing: 1px;
 		font-size: 22px;
 		font-family: "SourceSansPro-ExtraLight";
 		color: #fff;
 		/*opacity: 0.7;*/
 	}
-	.paragraph_section1{
+/*	.paragraph_section1{
 		padding-bottom: 10px;
-	}
-	#stars{
+	}*/
+	/*#stars{
 		display: block;
 		margin: 0 auto;
 		font-size: 20px;
+	}*/
+	#stars{
+		display: block;
+		background-size: 100% 100%;
+		width: 2%;
+		margin: auto;
+		padding: 4px 5px 4px 5px;
+		background-image: url('../images/stars.png')
 	}
 	.section2_services,.information{
 		margin: 0 auto;
 		width: 100%;
 		position: relative;
+		padding-top: 40px;
+    padding-bottom: 40px;
 	}
 	.information{
 		padding-top: 25px;
@@ -162,10 +189,12 @@
 		width: 33%;
 	}
 	.service_details{
+		padding-top: 20px;
 		font-family: "SourceSansPro-Regular";
 		font-size: 35px;
 	}
 	.section3_align_box{
+		padding-top: 30px;
 		display: flex;
 		width: 85%;
 		margin: 0 auto;
@@ -208,10 +237,15 @@
 		font-size: 23px;
 		letter-spacing: 0.5px;
 	}
+	.fa{
+		text-decoration: none;
+		color: #fff;
+	}
 	#box_division2{
 		width: 100%;
 	}
 	.h5_box_header{
+		    padding-top: 16px;
 		margin-bottom: 8px;
 		font-family: "SourceSansPro-Regular";
 		font-size: 12px;
@@ -243,7 +277,12 @@
 		position: relative;
 		display: flex;
 		margin: 0 auto;
+		    padding-top: 20px;
+    padding-bottom: 20px;
 		width: 85%;
+	}
+	.col1_text_image{
+		padding-top: 20px;
 	}
 	.contact_column1{
 		padding-left: 20px;
@@ -272,6 +311,7 @@
 	}
 	.contact_column1_header{
 		font-size: 23px;
+		padding-bottom: 20px;
 		color: #fff;
 		font-family: "SourceSansPro-Bold";
 	}
@@ -286,6 +326,7 @@
 		color: #fff;
 	}
 	.arrows{
+		    padding-top: 15px;
 		display: block;
 	}
 	#left_arrow{
@@ -297,15 +338,15 @@
 	.col2_details{
 		font-family: "SourceSansPro-Regular";
 		font-size: 19px;
-		padding: 1px 0 20px 0;
-		line-height: 4px;
+		padding: 1px 0 30px 0;
+		line-height: 28px;
 	}
 	.icons_socialsites{
-		padding: 10px 0 10px 0;
+		padding: 10px 0 35px 0;
 		font-size: 40px;
 		color: #fff;
 	}
-	.icons_socialsites i{
+	.icons_socialsites a{
 		margin-right: 10px;
 	}
 	.col3_list{
@@ -325,16 +366,20 @@
 		padding: 4px;
 	}
 	.contactez{
-		border-radius: 35px;
-		color: #2f3e6c;
+		/*border-radius: 35px;
 		margin: 0;
 	    height: auto;
 	    width: 240px;
-		background-color: #fff;
+		background-color: #fff;*/
 	}
 	.para_contact1{
+		color: #2f3e6c;
 		margin: 0;
+		border: none;
+		background-color: #fff;
 		font-size: 20px;
+		text-decoration: none;
+		    border-radius: 35px;
 		font-weight: bold;
 		font-family: "SourceSansPro-Regular";
 		padding: 15px 20px 15px 20px;
@@ -349,7 +394,7 @@
 		font-family: "SourceSansPro-Regular";
 		color: #fff;
 		font-size: 18px;
-		padding:6px 20px 0 0;
+		padding:25px 20px 0 0;
 	}
 	.media{
 		opacity: 0.7;
@@ -376,6 +421,7 @@
 		margin-right: 0;
 	}
 	.labguages{
+		top: 20px;
 		position: absolute;
 		right: 0;
 		font-size: 13px;
@@ -408,9 +454,19 @@
 	.right {
 		transform: rotate(-45deg);
 	}
+	.nav1_bar_required{
+		    position: absolute;
+    right: 0;
+		list-style: none;
+		display: flex;
+	}
+	.nav1_bar_required li{
+		margin-right: 10%;
+	}
 	@media only screen and (max-width: 1600px){
 		.contact_column1{
 			padding-left: 0;
 			width: 40%;
 		}
+
 	} 
