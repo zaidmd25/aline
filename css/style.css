@@ -128,8 +128,7 @@
 		padding-top: 25px;
 	}
 	.section3_information{
-		background-color: #9f6807;
-		
+		background-color: #9f6807;		
 	}
 	.section2_header{
 		letter-spacing: 1px;
@@ -409,3 +408,9 @@
 	.right {
 		transform: rotate(-45deg);
 	}
+	@media only screen and (max-width: 1600px){
+		.contact_column1{
+			padding-left: 0;
+			width: 40%;
+		}
+	} 
