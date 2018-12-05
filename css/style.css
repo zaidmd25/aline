@@ -63,7 +63,7 @@
 		color: #fff;
 		font-family: "SourceSansPro-Light";
 		padding: 15px 34px 15px 34px;
-		background-color: #8b7e2e;
+		background-color: #867d2e;
 		border: none;
 		text-align: center;
 		font-size: 22px;
@@ -121,7 +121,7 @@
 		padding-top: 25px;
 	}
 	.section3_information{
-		background-color: #9f6807;		
+		background-color: #9e6806;		
 	}
 	.section2_header{
 		letter-spacing: 1px;
@@ -193,6 +193,7 @@
 	}
 	.box_divions2{
 		width: 40%;
+		height: 150px;
 	}
 	#images_diviosn2{
 		width: 100%;
@@ -208,6 +209,7 @@
 		color: #fff;
 	}
 	#box_division2{
+		height: 150px;
 		width: 100%;
 	}
 	.h5_box_header{
@@ -237,7 +239,7 @@
 		border-bottom: 2.5px solid #fff;
 	}
 	.section4_contact_details{
-		background-color: #67696a;
+		background-color: #68696b;
 	}
 	.contact_details1{
 		position: relative;
